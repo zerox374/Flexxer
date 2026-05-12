@@ -209,4 +209,4 @@ $undeafen @user
     await ctx.send(embed=embed)
 
 
-bot.run(TOKEN)
+bot.run(TOKEN, reconnect=True)
